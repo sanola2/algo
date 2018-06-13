@@ -5,20 +5,14 @@ import java.util.stream.Collectors;
 
 public class nums {
     public static void main(String[] args) {
-        int[] A = {1,4,2};
-        int[] B = {5,4,4};
-        int result = 0;
 
-        A = Arrays.stream(A).sorted().toArray();
-        B = Arrays.stream(B).sorted().toArray();
-
-        for(int i=0; i< A.length; i++) {
-            result += A[i]* B[A.length-1-i];
-        }
-
-        System.out.println(result);
     }
 
+    public static void harshadNum() {
+        int x = 10;
+        System.out.println(x%String.valueOf(x).chars().map(Character::getNumericValue).sum()==0?true:false);
+
+    }
     public void 최소공배수최대공약수() {
         int m=12, n=3;
         int max =1, min =0;
