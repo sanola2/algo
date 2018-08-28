@@ -1,22 +1,59 @@
 import com.sun.xml.internal.fastinfoset.util.CharArray;
 import com.sun.xml.internal.fastinfoset.util.StringArray;
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class STRING {
     public static void main(String[] args) {
-        jadenCase();
-        String a = "asda";
+        caesar2();
     }
 
-    public static void jadenCase() {
-        String s = "3people unFollowed Me";
-        s = s.toLowerCase();
-//        String[] strings =
+    public static void caesar2() {
+        String s = "xXyYzZ";
+        int n = 3;
+        char[] ab = s.toCharArray();
 
-        System.out.println(s);
+        for(int i = 0; i < ab.length; i++) {
+            if(ab[i] <= 90 && ab[i]+n > 90)
+                ab[i] = (char) (65 + ab[i]+n - 91);
+            else if(ab[i] >= 97 && ab[i]+n >122)
+                ab[i] = (char) (97 + ab[i]+n - 123);
+            else if( ab[i] == 32)
+                continue;
+            else
+                ab[i] = (char) (ab[i] + n);
+        }
+        String an = new String(ab);
+
+        System.out.println(an);
+    }
+
+    public static void caesar() {
+        String s = "Z";
+        int n = 1;
+        Object[] ab = s.chars().mapToObj(x -> {
+            if(x == 90)
+                return (char) (65 + 90 - x+n - 1);
+            else if(x == 122)
+                return (char) (97 + 122 - x+n - 1);
+            else if( x == 32)
+                return (char) x;
+            else
+                return (char) (x + n);
+        }).toArray();
+        char[] b = new char[ab.length];
+        for(int i = 0; i< ab.length; i++) {
+            System.out.println(ab[i]);
+            b[i] = (char)ab[i];
+        }
+        String an = new String(b);
+
+
+        System.out.println(an);
     }
 
     public static void jadenCaseStringBuffer() {
