@@ -39,6 +39,7 @@ public class overwork {
         }*/
 
        // System.out.println(Arrays.stream(works).map(x -> x*x).sum());
+
     }
     public static int getMaxIndex(int[] num) {
         int result = num[0];

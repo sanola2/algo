@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baek/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baek/box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baek/ninezeroninefive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakaocofe/aver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakaocofe/bounty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/overwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/weirdString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/weirdString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/bestset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/hanoitower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/overwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/overwork.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="staticinclass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/staticinclass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bounty.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kakaocofe/bounty.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,23 +47,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overwork.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="overwork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/programmers/overwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="38">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hanoitower.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/programmers/hanoitower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invoke.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/invoke.java">
+      <file leaf-file-name="Android Asset Studio - Simple Nine-patch Generator.url" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Android Asset Studio - Simple Nine-patch Generator.url">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestset.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/programmers/bestset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -145,7 +148,10 @@
         <option value="$PROJECT_DIR$/src/programmers/weirdString2.java" />
         <option value="$PROJECT_DIR$/src/programmers/jump.java" />
         <option value="$PROJECT_DIR$/src/programmers/pq.java" />
+        <option value="$PROJECT_DIR$/src/programmers/bestset.java" />
         <option value="$PROJECT_DIR$/src/programmers/overwork.java" />
+        <option value="$PROJECT_DIR$/src/programmers/hanoitowerfp.java" />
+        <option value="$PROJECT_DIR$/src/programmers/hanoitower.java" />
       </list>
     </option>
   </component>
@@ -158,9 +164,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1878" />
+    <option name="y" value="-19" />
     <option name="width" value="1575" />
     <option name="height" value="940" />
   </component>
@@ -220,6 +226,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programmers" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -232,15 +243,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.overwork">
+  <component name="RunManager" selected="Application.hanoitower">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.jump" />
+    <configuration name="bestset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.bestset" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="hanoitower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.hanoitower" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="hanoitowerfp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.hanoitowerfp" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -263,28 +296,6 @@
     </configuration>
     <configuration name="pq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.pq" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="weirdString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.weirdString" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="weirdString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.weirdString2" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -333,19 +344,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.weirdString" />
-      <item itemvalue="Application.weirdString2" />
-      <item itemvalue="Application.jump" />
       <item itemvalue="Application.overwork" />
       <item itemvalue="Application.pq" />
+      <item itemvalue="Application.bestset" />
+      <item itemvalue="Application.hanoitower" />
+      <item itemvalue="Application.hanoitowerfp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hanoitower" />
+        <item itemvalue="Application.hanoitowerfp" />
+        <item itemvalue="Application.bestset" />
         <item itemvalue="Application.overwork" />
         <item itemvalue="Application.pq" />
-        <item itemvalue="Application.jump" />
-        <item itemvalue="Application.weirdString2" />
-        <item itemvalue="Application.weirdString" />
       </list>
     </recent_temporary>
   </component>
@@ -373,16 +384,15 @@
       <workItem from="1534685305175" duration="3978000" />
       <workItem from="1534775668125" duration="605000" />
       <workItem from="1535376451592" duration="9256000" />
-      <workItem from="1535446215818" duration="4736000" />
+      <workItem from="1535446215818" duration="16865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58527000" />
+    <option name="totallyTimeSpent" value="70656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,7 +404,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37292817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37292817" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -452,37 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/STRING.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -799,12 +778,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/bestset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/overwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="38">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Android Asset Studio - Simple Nine-patch Generator.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/hanoitowerfp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/hanoitower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
