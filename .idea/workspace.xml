@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/baek/dfsbfslist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baek/dfsbfslist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/kakaoblock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/kakaoblock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,20 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kakaoblock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kakaoblock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/programmers/kakaoblock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="257">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfsbfslist.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dfsbfslist.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baek/dfsbfslist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="138">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -140,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/programmers/kakaodart.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaocache.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaonewsclustering.java" />
-        <option value="$PROJECT_DIR$/src/programmers/kakaoblock.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfs.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfsarray.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfslist.java" />
+        <option value="$PROJECT_DIR$/src/programmers/kakaoblock.java" />
       </list>
     </option>
   </component>
@@ -382,12 +382,12 @@
       <workItem from="1535879712863" duration="7006000" />
       <workItem from="1535968313389" duration="24554000" />
       <workItem from="1536221704630" duration="11866000" />
-      <workItem from="1536317333268" duration="4971000" />
+      <workItem from="1536317333268" duration="5257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127078000" />
+    <option name="totallyTimeSpent" value="127364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -403,11 +403,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49479166" visible="true" weight="0.37292817" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49479166" visible="true" weight="0.37292817" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -778,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/programmers/kakaoblock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -805,8 +798,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/dfsbfslist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="138">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/programmers/kakaoblock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>

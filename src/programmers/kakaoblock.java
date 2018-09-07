@@ -43,6 +43,7 @@ public class kakaoblock {
                             if(boardChars[k][i] != '0') {
                                 boardChars[j][i] = boardChars[k][i];
                                 boardChars[k][i] = '0';
+                                break;
                             }
                         }
                     }
