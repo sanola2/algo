@@ -13,13 +13,13 @@ public class kakaochuseok {
         for(int i=0; i< lines.length; i++) {
             splits[i] = lines[i].split(" ");
             times[i] = LocalTime.parse(splits[i][1]);
-            seconds[i] = Double.parseDouble(splits[i][2].substring(0, splits[i][2].length()-1)) - 0.001;
+            seconds[i] = Double.parseDouble(splits[i][2].substring(0, splits[i][2].length()-1))*1000 - 1;
         }
 
         for(int i=0; i< lines.length; i++) {
             for(int j = i+1; j< lines.length; j++) {
                 int equalOrAfter = times[i].compareTo(times[j]);
-                int equalOrBefore = times[i].plusSeconds(1).compareTo(times[j].minusNanos((long)(seconds[j] * 1000000000)));
+                int equalOrBefore = times[i].plusNanos((long) (999 * 1000000)).compareTo(times[j].minusNanos((long)(seconds[j] * 1000000)));
                 if(equalOrAfter != 1 && equalOrBefore != -1 ) {
                     cnt++;
                 }
@@ -34,6 +34,7 @@ public class kakaochuseok {
 
     public static void main(String[] args) {
         kakaochuseok a = new kakaochuseok();
+       // System.out.println(a.solution(new String[]{"2016-09-15 01:00:04.001 2.0s", "2016-09-15 01:00:07.000 2s"}));
 
         System.out.println(a.solution(new String[]{"2016-09-15 20:59:57.421 0.351s",
                 "2016-09-15 20:59:58.233 1.181s",
