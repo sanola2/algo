@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/tree.java" line="17" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/regex.java" line="12" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/swe/mostfrequentnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kakaocofe/kakao7.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,38 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kakaochuseok.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/kakaochuseok.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakao1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kakao6.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="266">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kakaochuseokint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/kakaochuseokint.java">
+      <file leaf-file-name="regex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/regex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="266">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -70,8 +50,8 @@
       <file leaf-file-name="kakao3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="20" column="98" lean-forward="true" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
+            <state relative-caret-position="380">
+              <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -80,19 +60,28 @@
         <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao7.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mostfrequentnum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mostfrequentnum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/swe/mostfrequentnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="228">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -195,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/programmers/kakaochuseokbefore.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaochuseokint.java" />
         <option value="$PROJECT_DIR$/src/swe/mostfrequentnum.java" />
+        <option value="$PROJECT_DIR$/src/test/tree.java" />
+        <option value="$PROJECT_DIR$/src/test/regex.java" />
       </list>
     </option>
   </component>
@@ -208,10 +199,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2017" />
-    <option name="y" value="-25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1039" />
+    <option name="x" value="-1929" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,12 +246,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,16 +291,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mostfrequentnum">
+  <component name="RunManager" selected="Application.regex">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="distinctCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="distinctCount" />
-      <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="kakao6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -313,17 +305,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="kakaocofe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="kakaochuseok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaochuseok" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,6 +327,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="swe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.regex" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.tree" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.kakao6" />
-      <item itemvalue="Application.kakaochuseok" />
-      <item itemvalue="Application.distinctCount" />
       <item itemvalue="Application.kakaochuseokint" />
       <item itemvalue="Application.mostfrequentnum" />
+      <item itemvalue="Application.tree" />
+      <item itemvalue="Application.kakao6" />
+      <item itemvalue="Application.regex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.regex" />
+        <item itemvalue="Application.kakao6" />
+        <item itemvalue="Application.tree" />
         <item itemvalue="Application.mostfrequentnum" />
         <item itemvalue="Application.kakaochuseokint" />
-        <item itemvalue="Application.kakaochuseok" />
-        <item itemvalue="Application.distinctCount" />
-        <item itemvalue="Application.kakao6" />
       </list>
     </recent_temporary>
   </component>
@@ -437,16 +440,16 @@
       <workItem from="1536317333268" duration="6744000" />
       <workItem from="1536583792567" duration="25179000" />
       <workItem from="1536985666159" duration="26531000" />
-      <workItem from="1537187527463" duration="10273000" />
+      <workItem from="1537187527463" duration="11131000" />
+      <workItem from="1537336227835" duration="8419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190834000" />
+    <option name="totallyTimeSpent" value="200111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -458,7 +461,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49479166" visible="true" weight="0.37292817" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49479166" weight="0.37292817" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -516,15 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="320" column="19" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Android Asset Studio - Simple Nine-patch Generator.url" />
-    <entry file="file://$PROJECT_DIR$/src/programmers/hanoitowerfp.java" />
     <entry file="file://$PROJECT_DIR$/src/kakaocofe/bounty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -744,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,17 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding>
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,33 +762,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="1482" column="15" selection-start-line="1482" selection-start-column="15" selection-end-line="1482" selection-end-column="15" />
-          <folding>
-            <element signature="e#50631#50632#0" expanded="true" />
-            <element signature="e#50701#50702#0" expanded="true" />
-            <element signature="e#54624#54625#0" expanded="true" />
-            <element signature="e#54692#54693#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/kakaochuseok.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="285">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/kakaochuseokint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
+        <state relative-caret-position="133">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="551">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -816,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="98" lean-forward="true" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -840,34 +807,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao6.java">
+    <entry file="file://$PROJECT_DIR$/src/swe.java" />
+    <entry file="file://$PROJECT_DIR$/src/swe/mostfrequentnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="228">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swe.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="267">
+          <caret line="434" column="13" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="20" />
+          <folding>
+            <element signature="e#16227#16228#0" expanded="true" />
+            <element signature="e#16265#16266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swe/mostfrequentnum.java">
+    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="266">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/regex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
