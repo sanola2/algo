@@ -1,4 +1,4 @@
-package baek;
+package baek.dp;
 
 import java.util.Scanner;
 
