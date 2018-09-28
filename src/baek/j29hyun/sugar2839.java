@@ -1,4 +1,4 @@
-package baek;
+package baek.j29hyun;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,48 +1,32 @@
 package kakaocofe;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class kakao1 {
     public String[] solution(String[] record) {
         String[][] logs = new String[record.length][3];
-        String[][] temp = new String[record.length][3];
+        Map<String, String> userId = new HashMap<>();
         int cnt = 0;
 
         for(int i=0; i< record.length; i++) {
-            temp[i] = record[i].split(" ");
-            logs[i][0] = temp[i][0];
-            logs[i][1] = temp[i][1];
-            if(temp[i].length < 3)
-                logs[i][2] = "";
-            else
-                logs[i][2] = temp[i][2];
-        }
-
-        for(int i=0; i< record.length; i++) {
-            if(logs[i][0].equals("Change")) {
-                for(int j=0; j< i; j++) {
-                    if(logs[i][1].equals(logs[j][1])) {
-                        logs[j][2] = logs[i][2];
-                    }
-                }
-                cnt++;
-            } else if(logs[i][0].equals("Enter")) {
-                for(int j=0; j< i; j++) {
-                    if(logs[i][1].equals(logs[j][1])) {
-                        logs[j][2] = logs[i][2];
-                    }
-                }
+            logs[i] = record[i].split(" ");
+            if(logs[i][0].equals("Enter") || logs[i][0].equals("Change")) {
+                userId.put(logs[i][1], logs[i][2]);
             }
+            if(logs[i][0].equals("Enter") || logs[i][0].equals("Leave"))
+                cnt++;
         }
 
-        String[] answer = new String[record.length - cnt];
-        System.out.println(answer.length);
+        String[] answer = new String[cnt];
+        int j=0;
         for(int i=0; i< record.length; i++) {
             if(logs[i][0].equals("Enter")) {
-               // System.out.println(logs[i][2] + "님이 들어왔습니다.");
-                answer[i] = logs[i][2] + "님이 들어왔습니다.";
-
-            } else if(logs[i][0].equals("Leave")) {
-              //  System.out.println(logs[i][2] + "님이 나갔습니다.");
-                answer[i] = logs[i][2] + "님이 나갔습니다.";
+                answer[j] = userId.get(logs[i][1]) + "님이 들어왔습니다.";
+                j++;
+            } else if (logs[i][0].equals("Leave")) {
+                answer[j] = userId.get(logs[i][1]) + "님이 나갔습니다.";
+                j++;
             }
         }
 
