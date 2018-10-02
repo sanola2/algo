@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baek/dp/dp11055.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baek/dp/dp1912.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baek/dp/dpstair2579.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baek/dp/dp11055.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baek/dp/dpLIS11055.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/noneed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/noneed.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +18,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algo$noneed.ic" NAME="noneed Coverage Results" MODIFIED="1538417564089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,11 +38,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dp11055.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baek/dp/dp11055.java">
+      <file leaf-file-name="dpLIS11055.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baek/dp/dpLIS11055.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="323">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="noneed.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="13" selection-start-line="28" selection-start-column="36" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dp1912.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baek/dp/dp1912.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dpstair2579.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baek/dp/dpstair2579.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,15 +94,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfsbfslist.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfslist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -138,9 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/fifo.java" />
-        <option value="$PROJECT_DIR$/src/programmers/kakaosecretmap.java" />
-        <option value="$PROJECT_DIR$/src/programmers/kakaodart.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaocache.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaonewsclustering.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfs.java" />
@@ -176,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/dfsss.java" />
         <option value="$PROJECT_DIR$/src/test/forob.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/bipartitegraph.java" />
-        <option value="$PROJECT_DIR$/src/test/noneed.java" />
         <option value="$PROJECT_DIR$/src/baek/sugar2839.java" />
         <option value="$PROJECT_DIR$/src/baek/j29hyun/sugar2839.java" />
         <option value="$PROJECT_DIR$/src/baek/simul/simbasic.java" />
@@ -189,6 +221,10 @@
         <option value="$PROJECT_DIR$/src/nhn/nhn1.java" />
         <option value="$PROJECT_DIR$/src/nhn/nhn11.java" />
         <option value="$PROJECT_DIR$/src/baek/dp/dp11055.java" />
+        <option value="$PROJECT_DIR$/src/baek/dp/dpLIS11055.java" />
+        <option value="$PROJECT_DIR$/src/test/noneed.java" />
+        <option value="$PROJECT_DIR$/src/baek/dp/dp1912.java" />
+        <option value="$PROJECT_DIR$/src/baek/dp/dpstair2579.java" />
       </list>
     </option>
   </component>
@@ -202,8 +238,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1923" />
-    <option name="y" value="-18" />
+    <option name="x" value="2032" />
+    <option name="y" value="-28" />
     <option name="width" value="1934" />
     <option name="height" value="1037" />
   </component>
@@ -328,15 +364,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.dp11055">
+  <component name="RunManager" selected="Application.dpstair2579">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="dp11055" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baek.dp.dp11055" />
+    <configuration name="dp1912" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dp.dp1912" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,35 +382,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="line1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="line.line1" />
+    <configuration name="dpLIS11055" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dp.dpLIS11055" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="line.*" />
+          <option name="PATTERN" value="baek.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="line2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="line.line2" />
+    <configuration name="dpstair2579" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dp.dpstair2579" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="line.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="nhn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nhn.nhn1" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nhn.*" />
+          <option name="PATTERN" value="baek.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,6 +411,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nhn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="noneed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.noneed" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +465,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.line1" />
-      <item itemvalue="Application.line2" />
-      <item itemvalue="Application.nhn1" />
       <item itemvalue="Application.nhn11" />
-      <item itemvalue="Application.dp11055" />
+      <item itemvalue="Application.dpLIS11055" />
+      <item itemvalue="Application.noneed" />
+      <item itemvalue="Application.dp1912" />
+      <item itemvalue="Application.dpstair2579" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dp11055" />
+        <item itemvalue="Application.dpstair2579" />
+        <item itemvalue="Application.dp1912" />
+        <item itemvalue="Application.noneed" />
+        <item itemvalue="Application.dpLIS11055" />
         <item itemvalue="Application.nhn11" />
-        <item itemvalue="Application.nhn1" />
-        <item itemvalue="Application.line2" />
-        <item itemvalue="Application.line1" />
       </list>
     </recent_temporary>
   </component>
@@ -484,12 +520,12 @@
       <workItem from="1537543236287" duration="16353000" />
       <workItem from="1537820282024" duration="2081000" />
       <workItem from="1537955056023" duration="46741000" />
-      <workItem from="1538204354928" duration="9594000" />
+      <workItem from="1538204354928" duration="20642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288244000" />
+    <option name="totallyTimeSpent" value="299292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
@@ -559,18 +595,10 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/swe.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="434" column="13" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -603,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -790,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/j29hyun.java" />
     <entry file="file://$PROJECT_DIR$/src/baek/j29hyun/sugar2839.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -904,10 +918,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baek/dp/dp11055.java">
+    <entry file="file://$PROJECT_DIR$/src/baek/dp/dpLIS11055.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="13" selection-start-line="28" selection-start-column="36" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dp/dp1912.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dp/dpstair2579.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
