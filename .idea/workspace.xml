@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/cycle10451.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/tt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baek/sortcompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/threexn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/noneed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/noneed.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dpLIS11055.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baek/dp/dpLIS11055.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="simbasic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baek/simul/simbasic.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noneed.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="noneed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="81" lean-forward="true" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+            <state relative-caret-position="252">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sortcompare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baek/sortcompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,17 +75,8 @@
       <file leaf-file-name="tt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/tt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="608">
               <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threexn3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/programmers/threexn3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -123,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baek/dfsbfsarray.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfslist.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaoblock.java" />
         <option value="$PROJECT_DIR$/src/programmers/kakaoshuttle.java" />
@@ -174,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/cycle10451.java" />
         <option value="$PROJECT_DIR$/src/test/tt.java" />
         <option value="$PROJECT_DIR$/src/test/noneed.java" />
+        <option value="$PROJECT_DIR$/src/baek/sortcompare.java" />
       </list>
     </option>
   </component>
@@ -187,10 +176,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2175" />
-    <option name="y" value="-20" />
-    <option name="width" value="1440" />
-    <option name="height" value="765" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,6 +187,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,9 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,15 +468,17 @@
       <workItem from="1538204354928" duration="20681000" />
       <workItem from="1538541347660" duration="7244000" />
       <workItem from="1538675925688" duration="7960000" />
-      <workItem from="1538771789475" duration="373000" />
+      <workItem from="1538771789475" duration="2982000" />
+      <workItem from="1538984874676" duration="6342000" />
+      <workItem from="1539033209298" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314908000" />
+    <option name="totallyTimeSpent" value="325685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -572,48 +563,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baek/dp/box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baek/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="98" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kakaocofe/kakao5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -811,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,24 +816,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-          <folding>
-            <element signature="e#58481#58482#0" expanded="true" />
-            <element signature="e#58518#58519#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/tt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="608">
           <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="143" column="47" selection-start-line="143" selection-start-column="47" selection-end-line="143" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="143" column="39" lean-forward="true" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="81" lean-forward="true" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        <state relative-caret-position="252">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/sortcompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
