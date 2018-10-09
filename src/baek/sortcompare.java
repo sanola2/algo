@@ -25,21 +25,4 @@ public class sortcompare {
             System.out.println(array[i][0] + " " + array[i][1]);
         }
     }
-    static void sort(int[][] array) {
-        for(int i=0; i< array.length-2; i++) {
-            for(int j=0; j< array.length-1 -i; j++) {
-                if(array[j][0] >= array[j+1][0]) {
-                    if(array[j][0] == array[j+1][0]) {
-                        if(array[j][1] < array[j+1][1])
-                            continue;
-                    }
-                    for (int k = 0; k < 2; k++) {
-                        int temp = array[j][k];
-                        array[j][k] = array[j + 1][k];
-                        array[j + 1][k] = temp;
-                    }
-                }
-            }
-        }
-    }
 }
