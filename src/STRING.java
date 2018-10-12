@@ -1,11 +1,5 @@
-import com.sun.xml.internal.fastinfoset.util.CharArray;
-import com.sun.xml.internal.fastinfoset.util.StringArray;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class STRING {
     public static void main(String[] args) {

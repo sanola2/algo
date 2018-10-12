@@ -19,4 +19,4 @@
 *.tar.gz
 *.rar
 
-workspace.xml
+.idea/workspace.xml

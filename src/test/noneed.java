@@ -8,37 +8,39 @@ public class noneed {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
-        int[][] array = new int[num][2];
+        NameAge[] array = new NameAge[num];
 
         for(int i=0; i< num; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            array[i][0] = Integer.valueOf(st.nextToken());
-            array[i][1] = Integer.valueOf(st.nextToken());
+            array[i] = new NameAge(Integer.valueOf(st.nextToken()), st.nextToken());
         }
-        Arrays.sort(array, (o1, o2) -> {
-            if(o1[0] == o2[0])
-                return Integer.compare(o1[1], o2[1]);
-            return Integer.compare(o1[0], o2[0]);
-        });
+        Arrays.sort(array);
         for(int i=0; i< num; i++) {
-            System.out.println(array[i][0] + " " + array[i][1]);
+            System.out.println(array[i]);
         }
     }
-    static void sort(int[][] array) {
-        for(int i=0; i< array.length-2; i++) {
-            for(int j=0; j< array.length-1 -i; j++) {
-                if(array[j][0] >= array[j+1][0]) {
-                    if(array[j][0] == array[j+1][0]) {
-                        if(array[j][1] < array[j+1][1])
-                            continue;
-                    }
-                    for (int k = 0; k < 2; k++) {
-                        int temp = array[j][k];
-                        array[j][k] = array[j + 1][k];
-                        array[j + 1][k] = temp;
-                    }
-                }
-            }
-        }
+}
+class NameAge implements Comparable<NameAge> {
+    int age;
+    String name;
+
+    public NameAge(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    @Override
+    public int compareTo(NameAge o) {
+        if(this.age > o.age)
+            return 1;
+        else if (this.age == o.age)
+            return 0;
+        else
+            return -1;
+    }
+
+    @Override
+    public String toString() {
+        return age + " " + name;
     }
 }
