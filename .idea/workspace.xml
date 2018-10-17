@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/graph7576.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph4963.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java">
+      <file leaf-file-name="graphBfs4963.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graphBfs4963.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="-457">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph7576.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph7576.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/timetest.java" />
-        <option value="$PROJECT_DIR$/src/kakaocofe/kakao7.java" />
         <option value="$PROJECT_DIR$/src/kakaocofe/kakao2.java" />
         <option value="$PROJECT_DIR$/src/kakaocofe/kakao3.java" />
         <option value="$PROJECT_DIR$/src/kakaocofe/kakao4.java" />
@@ -145,6 +155,8 @@
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/graphcitynumbering2667.java" />
         <option value="$PROJECT_DIR$/src/test/noneed.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java" />
+        <option value="$PROJECT_DIR$/src/baek/dfsbfs/graphBfs4963.java" />
+        <option value="$PROJECT_DIR$/src/baek/dfsbfs/graph7576.java" />
       </list>
     </option>
   </component>
@@ -240,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.graph4963">
+  <component name="RunManager" selected="Application.graph7576">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -249,6 +261,17 @@
     </configuration>
     <configuration name="graph4963" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.graph4963" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baek.dfsbfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="graph7576" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.graph7576" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -287,17 +310,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baek.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.tt" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,18 +354,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.noneed" />
-      <item itemvalue="Application.tt" />
       <item itemvalue="Application.sortcompare" />
       <item itemvalue="Application.graph9466" />
       <item itemvalue="Application.graph4963" />
+      <item itemvalue="Application.graph7576" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.graph7576" />
         <item itemvalue="Application.graph4963" />
         <item itemvalue="Application.noneed" />
         <item itemvalue="Application.graph9466" />
         <item itemvalue="Application.sortcompare" />
-        <item itemvalue="Application.tt" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +421,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347394000" />
+    <option name="totallyTimeSpent" value="353722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -519,13 +531,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/dfsbfslist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -729,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="143" column="39" lean-forward="true" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -836,10 +834,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java">
+    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graphBfs4963.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="-457">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="179" column="7" lean-forward="true" selection-start-line="179" selection-start-column="7" selection-end-line="179" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph7576.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
