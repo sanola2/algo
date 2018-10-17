@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/graphcitynumbering2667.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/noneed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/noneed.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="graph9466.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph9466.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphcitynumbering2667.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graphcitynumbering2667.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graphcitynumbering2667.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="189">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph4963.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/programmers/kakaoshuttle.java" />
         <option value="$PROJECT_DIR$/src/timetest.java" />
         <option value="$PROJECT_DIR$/src/kakaocofe/kakao7.java" />
         <option value="$PROJECT_DIR$/src/kakaocofe/kakao2.java" />
@@ -143,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/graph9466.java" />
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/graphcitynumbering2667.java" />
         <option value="$PROJECT_DIR$/src/test/noneed.java" />
+        <option value="$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java" />
       </list>
     </option>
   </component>
@@ -156,10 +158,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1925" />
-    <option name="y" value="-35" />
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,15 +240,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.noneed">
+  <component name="RunManager" selected="Application.graph4963">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="cycle10451" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.cycle10451" />
+    <configuration name="graph4963" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.graph4963" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -340,18 +342,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.noneed" />
-      <item itemvalue="Application.cycle10451" />
       <item itemvalue="Application.tt" />
       <item itemvalue="Application.sortcompare" />
       <item itemvalue="Application.graph9466" />
+      <item itemvalue="Application.graph4963" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.graph4963" />
         <item itemvalue="Application.noneed" />
         <item itemvalue="Application.graph9466" />
         <item itemvalue="Application.sortcompare" />
         <item itemvalue="Application.tt" />
-        <item itemvalue="Application.cycle10451" />
       </list>
     </recent_temporary>
   </component>
@@ -407,15 +409,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343244000" />
+    <option name="totallyTimeSpent" value="347394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32872927" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -517,14 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="494" column="16" selection-start-line="494" selection-start-column="16" selection-end-line="494" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -655,13 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baek/dp/dpLIS11055.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -825,10 +812,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dp/dpLIS11055.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graphcitynumbering2667.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="189">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="441" column="19" selection-start-line="441" selection-start-column="19" selection-end-line="441" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/graph4963.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
