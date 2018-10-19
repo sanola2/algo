@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss/bid13460.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss/test13458.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss/resign14501.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test13458.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test13458.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ss/test13458.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="treetraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baek/treetraversal.java">
+      <file leaf-file-name="resign14501.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ss/resign14501.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="181">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/swe/mostfrequentnum.java" />
         <option value="$PROJECT_DIR$/src/test/regex.java" />
         <option value="$PROJECT_DIR$/src/test/scanner.java" />
         <option value="$PROJECT_DIR$/src/test/brtest.java" />
@@ -212,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/baek/dfsbfs/nandM15649.java" />
         <option value="$PROJECT_DIR$/src/ss/bid13460.java" />
         <option value="$PROJECT_DIR$/src/ss/test13458.java" />
+        <option value="$PROJECT_DIR$/src/ss/resign14501.java" />
       </list>
     </option>
   </component>
@@ -306,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test13458">
+  <component name="RunManager" selected="Application.resign14501">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -346,8 +344,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="test13458" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss.test13458" />
+    <configuration name="resign14501" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss.resign14501" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -357,13 +355,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="treefindingparent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.treefindingparent" />
+    <configuration name="test13458" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss.test13458" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.treefindingparent" />
       <item itemvalue="Application.noneed" />
       <item itemvalue="Application.nandM15649" />
       <item itemvalue="Application.bid13460" />
       <item itemvalue="Application.test13458" />
+      <item itemvalue="Application.resign14501" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.resign14501" />
         <item itemvalue="Application.test13458" />
         <item itemvalue="Application.bid13460" />
         <item itemvalue="Application.nandM15649" />
         <item itemvalue="Application.noneed" />
-        <item itemvalue="Application.treefindingparent" />
       </list>
     </recent_temporary>
   </component>
@@ -471,12 +469,12 @@
       <workItem from="1539422226496" duration="1348000" />
       <workItem from="1539585143002" duration="5250000" />
       <workItem from="1539667307675" duration="9776000" />
-      <workItem from="1539849511075" duration="32450000" />
+      <workItem from="1539849511075" duration="36216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401423000" />
+    <option name="totallyTimeSpent" value="405189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
@@ -551,6 +549,24 @@
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss/resign14501.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss/resign14501.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss/resign14501.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/tt.java</url>
           <line>7</line>
@@ -559,18 +575,19 @@
           </properties>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss/resign14501.java</url>
+          <line>29</line>
+          <properties class="ss.resign14501" method="dfs">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="62" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/line/line2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/line/line1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -940,8 +957,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ss/test13458.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ss/resign14501.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
