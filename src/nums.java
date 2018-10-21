@@ -13,7 +13,7 @@ public class nums {
         System.out.println(x%String.valueOf(x).chars().map(Character::getNumericValue).sum()==0?true:false);
 
     }
-    public void 최소공배수최대공약수() {
+    public void minmax() {
         int m=12, n=3;
         int max =1, min =0;
         int b = (m>n?m:n);
