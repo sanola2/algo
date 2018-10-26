@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/baek/dfsbfs/pandaDpDfs1937.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/noneed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/noneed.java" afterDir="false" />
     </list>
@@ -60,15 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noneed.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="noneed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pandaDpDfs1937.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/pandaDpDfs1937.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +88,7 @@
       <file leaf-file-name="sortrefbw.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baek/sortrefbw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="570">
               <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
@@ -135,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/scanner.java" />
-        <option value="$PROJECT_DIR$/src/test/brtest.java" />
-        <option value="$PROJECT_DIR$/src/baek/calendaar1924.java" />
         <option value="$PROJECT_DIR$/src/baek/dp1463.java" />
         <option value="$PROJECT_DIR$/src/baek/dpstairnums.java" />
         <option value="$PROJECT_DIR$/src/baek/dp/ninezeroninefive.java" />
@@ -186,6 +194,9 @@
         <option value="$PROJECT_DIR$/src/ss/resign14501.java" />
         <option value="$PROJECT_DIR$/src/nums.java" />
         <option value="$PROJECT_DIR$/src/test/noneed.java" />
+        <option value="$PROJECT_DIR$/src/baek/pow/powpow.java" />
+        <option value="$PROJECT_DIR$/src/baek/dfsbfs/powpow.java" />
+        <option value="$PROJECT_DIR$/src/baek/dfsbfs/pandaDpDfs1937.java" />
       </list>
     </option>
   </component>
@@ -199,7 +210,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1876" />
+    <option name="x" value="1875" />
     <option name="y" value="-25" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
@@ -258,8 +269,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,23 +304,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.noneed">
+  <component name="RunManager" selected="Application.pandaDpDfs1937">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="bid13460" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss.bid13460" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="noneed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.noneed" />
@@ -318,6 +318,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="pandaDpDfs1937" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.pandaDpDfs1937" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baek.dfsbfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.bid13460" />
       <item itemvalue="Application.test13458" />
       <item itemvalue="Application.resign14501" />
       <item itemvalue="Application.treetraversal" />
       <item itemvalue="Application.noneed" />
+      <item itemvalue="Application.pandaDpDfs1937" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pandaDpDfs1937" />
         <item itemvalue="Application.noneed" />
         <item itemvalue="Application.test13458" />
         <item itemvalue="Application.treetraversal" />
         <item itemvalue="Application.resign14501" />
-        <item itemvalue="Application.bid13460" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +473,13 @@
       <workItem from="1540017899757" duration="319000" />
       <workItem from="1540018246928" duration="5588000" />
       <workItem from="1540143736161" duration="2215000" />
-      <workItem from="1540306792153" duration="3921000" />
+      <workItem from="1540306792153" duration="5251000" />
+      <workItem from="1540550662074" duration="7407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418101000" />
+    <option name="totallyTimeSpent" value="426838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
@@ -551,17 +563,10 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="69" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baek/dp/dp1912.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/bipartitegraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -892,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baek/sortrefbw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="570">
           <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
@@ -913,12 +918,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/noneed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baek/dfsbfs/pandaDpDfs1937.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
