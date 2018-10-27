@@ -54,6 +54,7 @@ public class pandaDpDfs1937 {
         }
         return max;
     }
+    //메인에서 이중포문 돌릴때는 check 체크안함
     int betterDfs(int[][] dp, int[][] a, int x, int y) {
         if (dp[x][y] !=0 ) return dp[x][y];
         dp[x][y] = 1;
