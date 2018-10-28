@@ -13,11 +13,12 @@ public class p2 {
             for(int j=2; j< n; j++) {
                 long num = (long)Math.pow(i, j);
                 if(!array.contains(num))
-                    array.add(num);s
+                    array.add(num);
             }
         }
 
         Collections.sort(array);
+        System.out.println(array.size());
         System.out.println(array.get(n-1));
     }
 }
