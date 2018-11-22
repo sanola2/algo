@@ -20,6 +20,7 @@ public class pr1 {
                 answer2++;
             }
         }
+
         if(answer < answer2) {
             System.out.println(answer);
         } else {
