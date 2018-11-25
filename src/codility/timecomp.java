@@ -4,7 +4,8 @@ package codility;
 public class timecomp {
     public static void main(String[] args) {
       //  System.out.println(solution(new int[]{2,3,1,5}));
-        System.out.println(solution2(10,85,30));
+      //  System.out.println(solution2(10,85,30));
+        System.out.println(solution3(new int[]{3,1,2,4,3}));
     }
 
     public static int solution(int[] A) {
@@ -25,18 +26,17 @@ public class timecomp {
 
     public static int solution3(int[] A) {
         long sum = 0;
-        for(int i=0; i< A.length; i++)
-            sum += i;
+        long min = Integer.MAX_VALUE;
 
-        int i =0;
-        while(sum > 0) {
-            sum -= A[i]*2;
-            i++;
+        for(int i=0; i< A.length; i++)
+            sum += A[i];
+
+        for(int i=1; i< A.length; i++) {
+            sum -= A[i-1] *2;
+            if(min > Math.abs(sum))
+                min = Math.abs(sum);
         }
-        if(Math.abs(sum) < Math.abs(sum + A[i]*2)) {
-            return (int)sum;
-        }
-        else
-            return (int)Math.abs(sum + A[i]*2);
+
+        return (int)min;
     }
 }
