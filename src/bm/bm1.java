@@ -2,7 +2,7 @@ package bm;
 
 public class bm1 {
     public static void main(String[] args) {
-        solution("0100");
+        solution("0100101010101");
     }
 
     public static int solution(String S) {
