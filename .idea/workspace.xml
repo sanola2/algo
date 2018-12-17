@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/riot/r1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/riot/r2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/riot/r3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/riot/r4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/riot/r5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/riot/rr5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bm/bm1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bm/bm1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kakaocofe/kakao7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/noneed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/noneed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/riot/r5.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="r4.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="r4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/riot/r4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -77,23 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="r5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/riot/r5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rr5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rr5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/riot/rr5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="361">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -499,12 +477,12 @@
       <workItem from="1544607287693" duration="830000" />
       <workItem from="1544772990053" duration="4116000" />
       <workItem from="1544943400113" duration="1416000" />
-      <workItem from="1545045734598" duration="11646000" />
+      <workItem from="1545045734598" duration="11976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509762000" />
+    <option name="totallyTimeSpent" value="510092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
@@ -520,11 +498,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49479166" visible="true" weight="0.26104972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49479166" visible="true" weight="0.26104972" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -927,26 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/riot/r4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/riot/r5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-173">
@@ -987,8 +945,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/riot/rr5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="361">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/riot/r5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/riot/r4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
