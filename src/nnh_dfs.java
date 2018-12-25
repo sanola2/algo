@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class nnh {
+public class nnh_dfs {
     static int area = 0;
     static int areaSize =0;
     static boolean[][] check;

@@ -53,7 +53,7 @@ public class dfsbfslist {
         }
 
         for(int i=0; i< n; i++) {
-           // Collections.sort(adjacencyMatrix[i]);
+           // Collections.quicksort(adjacencyMatrix[i]);
             adjacencyMatrix[i].sort(Comparator.naturalOrder());
         }
 

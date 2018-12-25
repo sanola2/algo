@@ -28,10 +28,10 @@ public class overwork {
         }
         System.out.println(sum);
         Arrays.stream(rpq.toArray()).mapToInt(x->(int)x*(int)x).sum();
-       /* Arrays.sort(works);
+       /* Arrays.quicksort(works);
         for(int i=0; i< n; i++) {
             if(works[works.length-1] < works[works.length-2])
-                Arrays.sort(works);
+                Arrays.quicksort(works);
             if(works[works.length-1] == 0)
                 break;
 
