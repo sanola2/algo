@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class stackqueue {
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class stackqueue {
         System.out.println(stackqueue.pop());*/
 
        Qu queue = new Qu();
-        LinkedList a = new LinkedList();
+       LinkedList a = new LinkedList();
        queue.add(1);
        queue.add(2);
        queue.add(3);
