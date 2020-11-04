@@ -25,6 +25,40 @@ fun extraLongFactorials(n: Int): Unit {
     println(num)
 }
 
+private fun result(result: String) {
+    // String escaping loop from JSONStringer
+    var out = StringBuilder()
+    out.append("\"")
+    var i = 0
+    val length = result.length
+    while (i < length) {
+        /*
+         * From RFC 4627, "All Unicode characters may be placed within the
+         * quotation marks except for the characters that must be escaped:
+         * quotation mark, reverse solidus, and the control characters
+         * (U+0000 through U+001F)."
+         */
+        when (val c = result[i]) {
+            '"', '\\', '/' -> out.append('\\').append(c)
+            '\t' -> out.append("\\t")
+            '\b' -> out.append("\\b")
+            '\n' -> out.append("\\n")
+            '\r' -> out.append("\\r")
+            //'\f' -> out.append("\\f")
+            else -> if (c.toInt() <= 0x1F) {
+                out.append(String.format("\\u%04x", c.toInt()))
+            } else {
+                out.append(c)
+            }
+        }
+        i++
+    }
+    out.append("\"")
+
+    val resultString = out.toString()
+    println(resultString)
+}
+
 fun main(args: Array<String>) {
     /*val a = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
 
@@ -33,5 +67,9 @@ fun main(args: Array<String>) {
     val result = compareTriplets(a, b)
 
     println(result.joinToString(" "))*/
-    extraLongFactorials(25)
+    val a: Int? = null
+    println(a?.also {
+        println("sdaf$it")
+        it.toLong() })
+  //  extraLongFactorials(25)
 }
