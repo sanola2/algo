@@ -60,7 +60,7 @@ public class cp1 {
         List<String> list = new ArrayList();
         list.addAll(map.keySet());
 
-        Collections.sort(list, (o1, o2) -> {
+        list.sort((o1, o2) -> {
             Object a = map.get(o1);
             Object b = map.get(o2);
             return ((Comparable) b).compareTo(a);
