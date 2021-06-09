@@ -1,42 +1,37 @@
 package codility;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class array {
-    public static void main(String[] args) {
-        //solution1(new int[]{}, 0 );
-        solution(new int[]{1,2,3,1});
-    }
+	public static void main(String[] args) {
+		//solution1(new int[]{}, 0 );
+		solution(new int[]{1, 2, 3, 1});
+	}
 
-    public static int[] solution1(int[] A, int K) {
-        if(A == null || A.length == 0)
-            return A;
-        int cycle = K % A.length;
-        int[] answer = new int[A.length];
+	public static int[] solution1(int[] A, int K) {
+		if (A == null || A.length == 0)
+			return A;
+		int cycle = K % A.length;
+		int[] answer = new int[A.length];
 
-        int k =0;
-        for(int i= A.length- cycle; i< A.length; i++) {
-            answer[k] = A[i];
-            k++;
+		int k = 0;
+		for (int i = A.length - cycle; i < A.length; i++) {
+			answer[k] = A[i];
+			k++;
+		}
+		for (int i = 0; i < A.length - cycle; i++) {
+			answer[k] = A[i];
+			k++;
+		}
+		return answer;
+	}
+
+	public static int solution(int[] A) {
+		int answer = 0;
+
+        for (int j : A) {
+            answer = answer ^ j;
         }
-        for(int i = 0; i< A.length - cycle; i++) {
-            answer[k] = A[i];
-            k++;
-        }
-        return answer;
-    }
-
-    public static int solution(int[] A) {
-        int answer = 0;
-
-        for(int i=0; i< A.length; i++) {
-            answer = answer ^ A[i];
-        }
-        System.out.println(answer);
-        return answer;
-    }
+		System.out.println(answer);
+		return answer;
+	}
 
 }
