@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverfin/n1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverfin/n2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverfin/n3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/naverweb/p1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/naverweb/p2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/naverweb/p3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/naverweb/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algo/META-INF/algo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algo/META-INF/algo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coup/cp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coup/cp1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="baek" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.n1">
+  <component name="RunManager" selected="Application.p2">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -81,20 +79,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coup.cp2" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,13 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="n2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naverfin.n2" />
+    <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naverweb.p1" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="naverfin.*" />
+          <option name="PATTERN" value="naverweb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="n3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naverfin.n3" />
+    <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naverweb.p2" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="naverfin.*" />
+          <option name="PATTERN" value="naverweb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +125,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nandM15649" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baek.dfsbfs.nandM15649" />
+    <configuration name="p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naverweb.p3" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baek.dfsbfs.*" />
+          <option name="PATTERN" value="naverweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naverweb.test" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="naverweb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p2" />
+        <item itemvalue="Application.p3" />
+        <item itemvalue="Application.p1" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.n1" />
-        <item itemvalue="Application.n3" />
-        <item itemvalue="Application.n2" />
-        <item itemvalue="Application.nandM15649" />
-        <item itemvalue="Application.cp2" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +294,9 @@
       <workItem from="1563689281071" duration="267000" />
       <workItem from="1564061616234" duration="43000" />
       <workItem from="1573043615457" duration="1027000" />
-      <workItem from="1623216060114" duration="10446000" />
+      <workItem from="1623216060114" duration="11291000" />
+      <workItem from="1623231065667" duration="10000" />
+      <workItem from="1625373982017" duration="5707000" />
     </task>
     <servers />
   </component>
@@ -357,6 +357,16 @@
           <url>file://$PROJECT_DIR$/src/naverfin/n1.java</url>
           <line>13</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/naverweb/test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/naverweb/p2.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/baek/quicksort.java</url>
