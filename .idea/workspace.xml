@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/naverweb/p1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverweb/p2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverweb/p3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naverweb/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <recent name="baek" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p2">
+  <component name="RunManager" selected="Application.cp3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -83,13 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="n1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naverfin.n1" />
+    <configuration name="cp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coup.cp3" />
       <module name="algo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="naverfin.*" />
+          <option name="PATTERN" value="coup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cp3" />
         <item itemvalue="Application.p2" />
         <item itemvalue="Application.p3" />
         <item itemvalue="Application.p1" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.n1" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +294,10 @@
       <workItem from="1573043615457" duration="1027000" />
       <workItem from="1623216060114" duration="11291000" />
       <workItem from="1623231065667" duration="10000" />
-      <workItem from="1625373982017" duration="5707000" />
+      <workItem from="1625373982017" duration="6822000" />
+      <workItem from="1625400051090" duration="102000" />
+      <workItem from="1625400258920" duration="16000" />
+      <workItem from="1626156844031" duration="2981000" />
     </task>
     <servers />
   </component>
@@ -365,8 +366,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/naverweb/p2.java</url>
-          <line>53</line>
+          <line>52</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coup/cp3.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/baek/quicksort.java</url>
