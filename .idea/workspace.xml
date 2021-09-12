@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ab185-7b89-41d3-bdbd-942e155f4604" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kakaocofe/wt/wt2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakaocofe/wt/wt6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakaocofe/wt/wt4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,7 @@
       <recent name="baek" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.wt2">
+  <component name="RunManager" selected="Application.wt4">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -89,20 +87,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="na1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naverfin.na1" />
-      <module name="algo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="naverfin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wt4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakaocofe.wt.wt4" />
+      <module name="algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kakaocofe.wt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wt6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakaocofe.wt.wt6" />
       <module name="algo" />
@@ -181,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.wt4" />
         <item itemvalue="Application.wt2" />
         <item itemvalue="Application.wt6" />
         <item itemvalue="Application.na2" />
         <item itemvalue="Application.na3" />
-        <item itemvalue="Application.na1" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +299,7 @@
       <workItem from="1626156844031" duration="14124000" />
       <workItem from="1630240697318" duration="7224000" />
       <workItem from="1631111028494" duration="1385000" />
-      <workItem from="1631327051110" duration="10032000" />
+      <workItem from="1631327051110" duration="14891000" />
     </task>
     <servers />
   </component>
@@ -382,11 +380,6 @@
           <url>file://$PROJECT_DIR$/src/naverfin/na3.java</url>
           <line>28</line>
           <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kakaocofe/wt/wt6.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/baek/quicksort.java</url>
